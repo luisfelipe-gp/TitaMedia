@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https://luisfelipe-gp.github.io/TitaMedia/static/css/main.973c1d48.css",
+    "main.js": "/https://luisfelipe-gp.github.io/TitaMedia/static/js/main.010bb259.js",
+    "static/js/787.a15af5c7.chunk.js": "/https://luisfelipe-gp.github.io/TitaMedia/static/js/787.a15af5c7.chunk.js",
+    "index.html": "/https://luisfelipe-gp.github.io/TitaMedia/index.html",
+    "main.973c1d48.css.map": "/https://luisfelipe-gp.github.io/TitaMedia/static/css/main.973c1d48.css.map",
+    "main.010bb259.js.map": "/https://luisfelipe-gp.github.io/TitaMedia/static/js/main.010bb259.js.map",
+    "787.a15af5c7.chunk.js.map": "/https://luisfelipe-gp.github.io/TitaMedia/static/js/787.a15af5c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.973c1d48.css",
+    "static/js/main.010bb259.js"
+  ]
+}
