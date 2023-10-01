@@ -1,0 +1,40 @@
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+
+
+.card {
+    background-color: #000; /* Fondo negro */
+    color: #f0f0f0; /* Texto azul oscuro */
+    padding: 1.4rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 20rem;
+    height: 80vh;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .card h2{
+    margin: 1rem 0;
+    text-transform: uppercase;
+  }
+  .card p{
+    margin: 8rem 0 3rem;
+  }
+
+  @media (min-width: 600px) {
+    .card {
+        width: 20rem;
+    height: 50vh;
+      }
+  }

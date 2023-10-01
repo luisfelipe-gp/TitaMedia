@@ -1,0 +1,104 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; 
+  }
+  
+
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000; 
+    width: 80vw;
+  }
+
+  .container-button{
+    display: flex;
+    justify-content: end;
+    margin: 1rem 0;
+  }
+
+  .close-button {
+    background-color: red; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .close-button:hover {
+    background-color: darkred; 
+  }
+  
+  
+  .comment-card {
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    max-width: 100%; 
+    overflow: hidden; 
+  }
+  
+  
+.comment-list {
+    max-height: 25rem; 
+    overflow-y: auto; 
+  }
+
+  /* Styles for modal with profile info */
+
+  .user-auth {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; 
+    max-width: 100%; 
+  }
+  
+  .user-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .user-img img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+  }
+  
+  .user-img span {
+    font-weight: bold;
+  }
+  
+  .user-email {
+    margin-top: 10px;
+  }
+
+  .user-sex, .user-phone, .user-city, .user-country,  .user-state{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .user-sex span:last-child,
+  .user-phone span:last-child,
+  .user-city span:last-child,
+  .user-country span:last-child,
+  .user-state span:last-child {
+    margin-bottom: 1rem; 
+  }
